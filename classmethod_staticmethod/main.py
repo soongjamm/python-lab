@@ -1,4 +1,6 @@
 
+
+
 class Store:
     def __init__(self, name):
         self.name = name
@@ -26,6 +28,7 @@ class Store:
         # Return a string representing the argument
         # It should be in the format 'NAME, total stock price: TOTAL'
         return '{}, total stock price: {}'.format(store.name, int(store.stock_price()))
+
 
 store = Store("Test")
 store2 = Store("Amazon")
